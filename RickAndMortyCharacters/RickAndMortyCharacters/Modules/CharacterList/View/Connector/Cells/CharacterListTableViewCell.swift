@@ -37,9 +37,7 @@ final class CharacterListTableViewCell: UITableViewCell {
     
     fileprivate func setupViews() {
         containerView.roundCorners(size: CGFloat(10).ws)
-        containerView.setBorder(width: CGFloat(1).ws, color: UIColor.borderColour)
         containerView.backgroundColor = UIColor.cardColour
-        characterImageView.roundCorners(size: CGFloat(4).ws)
         nameLabel.font = UIFont.titleFont
         nameLabel.textColor = UIColor.titleColour
         statusLabel.font = UIFont.textFont

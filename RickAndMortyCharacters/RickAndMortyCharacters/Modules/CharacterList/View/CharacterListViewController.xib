@@ -32,6 +32,8 @@
                 <constraint firstItem="ckA-k7-Ye0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="p5G-Kh-YQr"/>
                 <constraint firstAttribute="bottom" secondItem="ckA-k7-Ye0" secondAttribute="bottom" id="x3c-uD-bCN"/>
             </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
             <point key="canvasLocation" x="116" y="-28.335832083958024"/>
         </view>
     </objects>

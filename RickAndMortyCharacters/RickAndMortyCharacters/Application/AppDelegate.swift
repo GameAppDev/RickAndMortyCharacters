@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let rootVC = CharacterListRouter().returnVC()
         let navigationController = UINavigationController(rootViewController: rootVC)
+        navigationController.navigationBar.isHidden = true
         
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()

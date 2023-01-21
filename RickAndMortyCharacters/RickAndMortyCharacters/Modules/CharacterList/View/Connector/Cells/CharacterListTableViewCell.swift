@@ -29,7 +29,7 @@ final class CharacterListTableViewCell: UITableViewCell {
     
     public func configureCell(with character: Characters) {
         setupViews()
-        characterImageView.downloadImage(imageKey: character.image ?? "", defaultImage: "DefaultListImage")
+        characterImageView.downloadImage(imageKey: character.image, defaultImage: "DefaultListImage")
         nameLabel.text = character.name
         statusLabel.text = character.status
         speciesLabel.text = character.species
